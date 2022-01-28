@@ -32,9 +32,9 @@ a {
 }
 .conteiner {
   padding: 70px;
-  margin: 100px 80px;
+  margin: 50px auto;
   max-width: 600px;
-  height: 600px;
+  height: 520px;
   background-color: #000000;
   color: #b1b1b1;
 }
