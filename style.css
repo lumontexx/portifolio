@@ -59,24 +59,25 @@ a {
   margin-top: 40px;
 }
 .icon-cog2 {
-  color: #8d8b06;
+  color: #a8a613;
 }
 .fontsub {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 32px;
+  font-size: 45px;
 }
 .cx-projeto {
-  background-color: #00000086;
-  margin: 30px;
+  background-color: #00000081;
+  margin: 20px 10px;
   padding: 20px;
   border-radius: 5%;
+  box-shadow: 0 0 1em rgba(24, 23, 23, 0.815);
 }
 .links {
   font-size: 30px;
   background-color: #5f083bb2;
   width: 400px;
   padding: 20px;
-  margin: 0 30px;
+  margin: 0 20px;
   clip-path: circle();
 }
 .conteiner2 {
@@ -91,4 +92,8 @@ a {
 }
 .mgt-80 {
   margin-top: 80px;
+}
+.centeritem {
+  justify-content: center;
+  justify-items: center;
 }

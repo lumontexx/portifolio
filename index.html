@@ -12,13 +12,13 @@
 <body>
   <div class="cx-menu flex around fontmenu">
     <div class="menu">
-      <a href="#">INICIAL</a>
+      <a href="#inicial">INICIAL</a>
     </div>
     <div class="menu">
-      <a href="#">MEUS PROJETOS</a>
+      <a href="#meusprojetos">MEUS PROJETOS</a>
     </div>
     <div class="menu">
-      <a href="#">CONTATO</a>
+      <a href="#contato">CONTATO</a>
     </div>
   </div>
   <main>
@@ -26,64 +26,68 @@
       <div class="avatar">
         <img src="./img/me.jpg" alt="minha foto" width="200px" class="circleborder">
       </div>
-
-      <div class="text justify">
-        <h1 id="fonttitle">Luciana Monte Souza</h1>
-        <i class="fas fa-map-marker-alt icon-cog2"></i>
-        <span>São Paulo/SP</span>
-        <p>
-          Sou formada na área de educação, mas há um tempo decidi me arriscar no mundo da tecnologia. <br>
-          Já possuo conhecimento em HTML/CSS e estou em processo de estudo de JavaScript.
-        </p>
-        <div class="ling-ico">
-          <img alt="luci-HTML" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-          <img alt="luci-CSS" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+      <section id="inicial">
+        <div class="text justify">
+          <h1 id="fonttitle">Luciana Monte Souza</h1>
+          <i class="fas fa-map-marker-alt icon-cog2"></i>
+          <span>São Paulo/SP</span>
+          <p>
+            Sou formada na área de educação, mas há um tempo decidi me arriscar no mundo da tecnologia. <br>
+            Já possuo conhecimento em HTML/CSS e estou em processo de estudo de JavaScript.
+          </p>
+          <div class="ling-ico">
+            <img alt="luci-HTML" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+            <img alt="luci-CSS" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+          </div>
+        </div>
+    </div>
+    </section>
+    <hr>
+    <section id="meusprojetos">
+      <div class="mgt-80">
+        <h2 class="center fontsub">PROJETOS</h2>
+      </div>
+      <div class="flex centeritem">
+        <div class="cx-projeto">
+          <img src="./img/projetos/Projeto1.png" alt="imagem de um site" width="600px">
+        </div>
+        <div class="cx-projeto">
+          <img src="./img/projetos/Projeto2.png" alt="imagem de um site" width="600px">
+        </div>
+        <div class="cx-projeto">
+          <img src="./img/projetos/Projeto3.png" alt="imagem de um site" width="600px">
         </div>
       </div>
-    </div>
-    <hr>
-    <div class="mgt-80">
-      <h2 class="center fontsub">PROJETOS</h2>
-    </div>
-    <div class="flex">
-      <div class="cx-projeto">
-        <img src="./img/projetos/Projeto1.png" alt="imagem de um site" width="600px">
-      </div>
-      <div class="cx-projeto">
-        <img src="./img/projetos/Projeto2.png" alt="imagem de um site" width="600px">
-      </div>
-      <div class="cx-projeto">
-        <img src="./img/projetos/Projeto3.png" alt="imagem de um site" width="600px">
-      </div>
-    </div>
+    </section>
   </main>
   <hr>
-  <div class="mgt-80">
-    <h2 class="center fontsub">CONTATO</h2>
-  </div>
-  <div class="flex center conteiner2">
-
-    <div class="links fontblack">
-      <a href="https://github.com/lumontexx">
-        <img src="./img/icones/github.png" width="300px">
-        <div>
-          GitHub
-        </div>
-      </a>
+  <section id="contato">
+    <div class="mgt-80">
+      <h2 class="center fontsub">CONTATO</h2>
     </div>
+    <div class="flex center centeritem conteiner2">
 
-    <div class="links fontblack">
-      <address>
-        <a href="mailto:lumontesouza@gmail.com">
-          <img src="img/icones/email.png" width="300px">
-          <div>
-            E-mail
-          </div>
+      <div class="links fontblack">
+        <a href="https://github.com/lumontexx">
+          <img src="./img/icones/github.png" width="200px">
         </a>
-      </address>
+      </div>
+
+      <div class="links fontblack">
+        <address>
+          <a href="mailto:lumontesouza@gmail.com">
+            <img src="img/icones/email.png" width="200px">
+          </a>
+        </address>
+      </div>
+      <div class="links fontblack">
+        <a href="https://www.linkedin.com/in/luciana-monte-souza-024685226">
+          <img src="./img/icones/linkedin.png" width="200px">
+        </a>
+      </div>
     </div>
-  </div>
-  </div>
+  </section>
+
 
 </body>
 
