@@ -7,11 +7,11 @@ body {
 }
 .fontmenu {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 18px;
 }
 a {
   text-decoration: none;
   color: #e4e0e0;
+  font-size: 20px;
 }
 
 .around {
@@ -23,14 +23,14 @@ a {
   gap: 20px;
 }
 .cx-menu {
-  background-color: rgba(0, 0, 0, 0.664);
-  padding: 40px;
+  background-color: rgba(5, 38, 110, 0.664);
+  padding: 35px;
 }
 .conteiner {
   padding: 75px;
   margin: 0 auto;
   max-width: 100%;
-  height: 600px;
+  height: 550px;
   background-color: #000000;
   color: #b1b1b1;
 }
@@ -39,14 +39,14 @@ a {
 }
 .avatar {
   padding: 10px;
-  margin: 20px auto;
+  margin: 10px auto;
 }
 .circleborder {
   clip-path: circle();
 }
 #fonttitle {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 50px;
+  font-size: 40px;
 }
 .justify {
   text-align: justify;
@@ -74,8 +74,8 @@ a {
 }
 .links {
   font-size: 30px;
-  background-color: #5f083bb2;
-  width: 400px;
+  background-color: #96085bb7;
+  width: 300px;
   padding: 20px;
   margin: 0 20px;
   clip-path: circle();
@@ -96,4 +96,29 @@ a {
 .centeritem {
   justify-content: center;
   justify-items: center;
+}
+@media only screen and (max-width: 800px) {
+  .conteiner {
+    padding: 60px;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 600px;
+  }
+  #fonttitle {
+    font-size: 30px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .fontmenu a {
+    font-size: 10px;
+  }
+  .cx-menu {
+    padding: 20px;
+  }
+  .links {
+    width: 200px;
+    padding: 20px;
+    margin: 0 10px;
+  }
 }
