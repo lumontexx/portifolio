@@ -1,9 +1,5 @@
 body {
-  margin: 0;
-  background-image: url("./img/fakurian-design.jpg");
-  background-repeat: no-repeat;
   background-color: #b1b1b1;
-  background-size: auto;
 }
 .fontmenu {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -11,7 +7,7 @@ body {
 a {
   text-decoration: none;
   color: #e4e0e0;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .around {
@@ -30,7 +26,7 @@ a {
   padding: 75px;
   margin: 0 auto;
   max-width: 100%;
-  height: 550px;
+  height: 450px;
   background-color: #000000;
   color: #b1b1b1;
 }
@@ -53,7 +49,7 @@ a {
 }
 .text {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 17px;
 }
 .ling-ico {
   margin-top: 40px;
@@ -63,7 +59,7 @@ a {
 }
 .fontsub {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 45px;
+  font-size: 40px;
 }
 .cx-projeto {
   background-color: #00000081;
@@ -73,7 +69,6 @@ a {
   box-shadow: 0 0 1em rgba(24, 23, 23, 0.815);
 }
 .links {
-  font-size: 30px;
   background-color: #96085bb7;
   width: 300px;
   padding: 20px;
@@ -86,10 +81,6 @@ a {
   max-width: 100%;
   color: #b1b1b1;
 }
-.fontblack a {
-  color: #000000;
-  font-family: Arial, Helvetica, sans-serif;
-}
 .mgt-80 {
   margin-top: 80px;
 }
@@ -97,6 +88,10 @@ a {
   justify-content: center;
   justify-items: center;
 }
+* {
+  margin: 0;
+}
+
 @media only screen and (max-width: 800px) {
   .conteiner {
     padding: 60px;
