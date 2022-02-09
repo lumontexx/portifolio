@@ -29,6 +29,7 @@ a {
   height: 400px;
   background-color: #000000;
   color: #b1b1b1;
+  box-shadow: 0 0 1em rgb(19, 18, 18);
 }
 .center {
   text-align: center;
@@ -83,6 +84,7 @@ a {
   max-height: 100%;
   max-width: 100%;
   background-color: #2d3748;
+  box-shadow: 0 0 1em rgba(12, 12, 12, 0.877);
 }
 .mgt-80 {
   margin-top: 80px;
