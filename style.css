@@ -10,7 +10,6 @@ a {
   color: #e4e0e0;
   font-size: 18px;
 }
-
 .around {
   justify-content: space-around;
 }
@@ -65,7 +64,7 @@ a {
   margin: 30px auto;
 }
 .cx-projeto {
-  background-image: linear-gradient(to right, #770796, #a81acf);
+  background-image: linear-gradient(to right, #6f099e, #a81acf);
   margin: 20px 10px;
   padding: 20px;
   border-radius: 5%;
@@ -92,14 +91,7 @@ a {
   justify-content: center;
   justify-items: center;
 }
-
 @media only screen and (max-width: 800px) {
-  .conteiner {
-    padding: 60px;
-    margin: 0 auto;
-    max-width: 100%;
-    height: 600px;
-  }
   #fonttitle {
     font-size: 30px;
   }
@@ -118,5 +110,10 @@ a {
     width: 98px;
     padding: 20px;
     margin: 20px;
+  }
+  .conteiner {
+    padding: 60px;
+    max-width: 100%;
+    height: 600px;
   }
 }
