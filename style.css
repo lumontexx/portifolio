@@ -20,7 +20,7 @@ a {
   gap: 20px;
 }
 .cx-menu {
-  background-image: linear-gradient(to right, #770796, #a007ca);
+  background-image: linear-gradient(to right, #3f10ad, #a007ca);
   padding: 35px;
 }
 .conteiner {
@@ -65,14 +65,14 @@ a {
   margin: 30px auto;
 }
 .cx-projeto {
-  background-image: linear-gradient(to right, #770796, #a007ca);
+  background-image: linear-gradient(to right, #770796, #a81acf);
   margin: 20px 10px;
   padding: 20px;
   border-radius: 5%;
-  box-shadow: 0 0 1em rgba(19, 18, 18, 0.904);
+  box-shadow: 0 0 1em rgba(19, 18, 18, 0.966);
 }
 .links {
-  background-image: linear-gradient(to right, #00ffb7, #c500fc);
+  background-image: linear-gradient(to right, #09e4a6, #c007f3);
   width: 300px;
   padding: 20px;
   margin: 40px 10px;
@@ -112,9 +112,11 @@ a {
   .cx-menu {
     padding: 20px;
   }
+}
+@media only screen and (max-width: 1200px) {
   .links {
-    width: 200px;
+    width: 98px;
     padding: 20px;
-    margin: 0 10px;
+    margin: 20px;
   }
 }
