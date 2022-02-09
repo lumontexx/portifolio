@@ -26,7 +26,7 @@ a {
   padding: 75px;
   margin: 0 auto;
   max-width: 100%;
-  height: 520px;
+  height: 400px;
   background-color: #000000;
   color: #b1b1b1;
 }
@@ -114,6 +114,6 @@ a {
   .conteiner {
     padding: 60px;
     max-width: 100%;
-    height: 600px;
+    height: 580px;
   }
 }
