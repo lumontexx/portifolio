@@ -1,9 +1,10 @@
 body {
-  background-color: #3d495e;
+  background-color: #343f53;
   margin: 0;
 }
 .fontmenu {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
 }
 a {
   text-decoration: none;
@@ -19,7 +20,7 @@ a {
   gap: 20px;
 }
 .cx-menu {
-  background-image: linear-gradient(to right, #3f10ad, #a007ca);
+  background-image: linear-gradient(to right, #4c1bbd, #8d06b3e1);
   padding: 35px;
 }
 .conteiner {
@@ -44,6 +45,7 @@ a {
 #fonttitle {
   font-family: "Sarpanch", sans-serif;
   font-size: 40px;
+  color: #b6f8cc;
 }
 .justify {
   text-align: justify;
@@ -54,7 +56,7 @@ a {
 }
 .fontpress {
   font-family: "Press Start 2P", cursive;
-  color: #e4e0e0;
+  color: #b6f8cc;
   font-size: 35px;
   margin: 50px auto;
 }
