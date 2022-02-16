@@ -42,7 +42,7 @@ a {
   clip-path: circle();
 }
 #fonttitle {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Sarpanch", sans-serif;
   font-size: 40px;
 }
 .justify {
@@ -51,6 +51,12 @@ a {
 .text {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 17px;
+}
+.fontpress {
+  font-family: "Press Start 2P", cursive;
+  color: #e4e0e0;
+  font-size: 35px;
+  margin: 50px auto;
 }
 .ling-ico {
   margin-top: 40px;
@@ -65,7 +71,7 @@ a {
   margin: 30px auto;
 }
 .cx-projeto {
-  background-image: linear-gradient(to right, #6f099e, #a81acf);
+  background-image: linear-gradient(to right, #6f099e, #cf1ac6);
   margin: 20px 10px;
   padding: 20px;
   border-radius: 5%;
