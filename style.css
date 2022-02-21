@@ -3,13 +3,13 @@ body {
   margin: 0;
 }
 .fontmenu {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Sarpanch", sans-serif;
   font-weight: bold;
 }
 a {
   text-decoration: none;
   color: #e4e0e0;
-  font-size: 14px;
+  font-size: 13px;
 }
 .around {
   justify-content: space-around;
@@ -21,10 +21,10 @@ a {
 }
 .cx-menu {
   background-image: linear-gradient(to right, #4c1bbd, #8d0ab1e1);
-  padding: 30px;
+  padding: 20px;
 }
 .conteiner {
-  padding: 75px;
+  padding: 65px;
   margin: 0 auto;
   max-width: 100%;
   height: auto;
@@ -44,7 +44,7 @@ a {
 }
 #fonttitle {
   font-family: "Sarpanch", sans-serif;
-  font-size: 40px;
+  font-size: 35px;
   color: #b6f8cc;
 }
 .justify {
@@ -130,7 +130,8 @@ html {
     padding: 20px;
   }
   .fontmenu a {
-    font-size: 13px;
+    font-size: 26px;
+    margin: auto;
   }
   .cx-menu {
     padding: 25px;
