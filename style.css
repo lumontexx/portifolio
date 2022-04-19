@@ -107,43 +107,41 @@ a {
   justify-content: center;
   justify-items: center;
 }
-html {
-  text-size-adjust: 100%;
-}
+
 @media only screen and (max-width: 1000px) {
   .links {
-    width: 98px;
+    width: 50px;
     padding: 20px;
-    margin: 80px auto;
+    margin: 30px auto;
   }
   .conteiner {
-    padding: 100px;
+    padding: 80px;
     max-width: 100%;
     height: auto;
   }
   #fonttitle {
-    font-size: 25px;
+    font-size: 18px;
   }
   .text {
     font-size: auto;
   }
   .conteiner2 {
-    padding: 150px;
+    padding: 100px;
     margin-top: 40px;
   }
   .cx-projeto {
-    margin: 40px 50px;
+    margin: 30px 10px;
     padding: 20px;
   }
   .fontmenu a {
-    font-size: 26px;
+    font-size: 12px;
     margin: auto;
   }
   .cx-menu {
-    padding: 25px;
+    padding: 20px;
   }
   .ling-ico {
-    margin-top: 50px;
+    margin-top: 30px;
   }
   .avatar {
     padding: 10px;
