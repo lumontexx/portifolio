@@ -44,7 +44,7 @@ a {
 }
 #fonttitle {
   font-family: "Sarpanch", sans-serif;
-  font-size: 35px;
+  font-size: 25px;
   color: #b6f8cc;
 }
 .justify {
@@ -57,7 +57,7 @@ a {
 .fontpress {
   font-family: "Press Start 2P", cursive;
   color: #b6f8cc;
-  font-size: 25px;
+  font-size: 30px;
   margin: 60px auto;
 }
 .fontpress2 {
@@ -71,12 +71,6 @@ a {
 }
 .icon-cog2 {
   color: #a8a613;
-}
-.fontsub {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 25px;
-  color: #e4e0e0;
-  margin: 25px auto;
 }
 .cx-projeto {
   background-image: linear-gradient(to right, #6f099e, #cf1ac6);
@@ -107,12 +101,18 @@ a {
   justify-content: center;
   justify-items: center;
 }
+button {
+  background-image: linear-gradient(to right, #3b1680, #5121ac);
+  border-radius: 15%;
+  padding: 9px;
+  font-family: "Sarpanch", sans-serif;
+  border-color: #fc00bd;
+}
 
 @media only screen and (max-width: 1000px) {
   .links {
-    width: 50px;
-    padding: 20px;
-    margin: 30px auto;
+    padding: 9px;
+    margin: 10px auto;
   }
   .conteiner {
     padding: 80px;
@@ -120,7 +120,7 @@ a {
     height: auto;
   }
   #fonttitle {
-    font-size: 18px;
+    font-size: 25px;
   }
   .text {
     font-size: auto;
