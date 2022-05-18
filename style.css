@@ -62,7 +62,7 @@ a {
 }
 .pc-position {
   position: relative;
-  top: -180px;
+  top: -130px;
   left: 200px;
 }
 .fontpress2 {
@@ -112,10 +112,30 @@ a {
   margin: 0;
   flex-wrap: wrap;
 }
+.conteiner-text {
+  color: #b1b1b1;
+  background-color: #1b1b1b;
+  padding: 10px;
+  width: 500px;
+  margin: auto;
+  border-radius: 2%;
+  border: solid #b1b1b1;
+  flex-wrap: wrap;
+}
+.text-gameapre {
+  font-family: "Press Start 2P", cursive; 
+  text-align: justify;
+  line-height: 24px;
+}
 @media only screen and (max-width: 1000px) {
   .links {
     padding: 9px;
     margin: 10px auto;
+  }
+  .conteiner-text{
+    height: auto;
+    padding: 10px;
+    width: 200px;
   }
   .pc-position{
     flex-wrap: wrap;
