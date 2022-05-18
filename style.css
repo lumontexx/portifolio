@@ -65,6 +65,10 @@ a {
   top: -130px;
   left: 200px;
 }
+.space-position {
+  position: relative;
+  left: 900px;
+}
 .fontpress2 {
   font-family: "Press Start 2P", cursive;
   color: #63fc96;
@@ -112,9 +116,6 @@ a {
   margin: 0;
   flex-wrap: wrap;
 }
-.norepeat-divisao {
-  background-repeat: no-repeat;
-}
 .conteiner-text {
   color: #b1b1b1;
   background-color: #1b1b1b;
@@ -124,6 +125,7 @@ a {
   border-radius: 2%;
   border: solid #b1b1b1;
   flex-wrap: wrap;
+  box-shadow: 0 0 1em rgba(12, 12, 12, 0.911);
 }
 .text-gameapre {
   font-family: "Press Start 2P", cursive; 
@@ -144,6 +146,12 @@ a {
     flex-wrap: wrap;
     top: 0;
     left: 0;
+  }
+  .space-position {
+    flex-wrap: wrap;
+    top: 0;
+    left: 0;
+    text-align: center;
   }
   .conteiner {
     padding: 80px;
