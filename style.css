@@ -112,6 +112,9 @@ a {
   margin: 0;
   flex-wrap: wrap;
 }
+.norepeat-divisao {
+  background-repeat: no-repeat;
+}
 .conteiner-text {
   color: #b1b1b1;
   background-color: #1b1b1b;
