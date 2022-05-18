@@ -60,6 +60,11 @@ a {
   font-size: 30px;
   margin: 60px auto;
 }
+.pc-position {
+  position: relative;
+  top: -180px;
+  left: 200px;
+}
 .fontpress2 {
   font-family: "Press Start 2P", cursive;
   color: #63fc96;
@@ -113,6 +118,11 @@ button {
   .links {
     padding: 9px;
     margin: 10px auto;
+  }
+  .pc-position{
+    flex-wrap: wrap;
+    top: 0;
+    left: 0;
   }
   .conteiner {
     padding: 80px;
