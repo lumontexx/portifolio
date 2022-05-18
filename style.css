@@ -106,14 +106,12 @@ a {
   justify-content: center;
   justify-items: center;
 }
-button {
-  background-image: linear-gradient(to right, #3b1680, #5121ac);
-  border-radius: 15%;
-  padding: 9px;
-  font-family: "Sarpanch", sans-serif;
-  border-color: #fc00bd;
+.divisao {
+  background-image: url("./img/ilustracoes/pngegg.png");
+  padding: 90px;
+  margin: 0;
+  flex-wrap: wrap;
 }
-
 @media only screen and (max-width: 1000px) {
   .links {
     padding: 9px;
